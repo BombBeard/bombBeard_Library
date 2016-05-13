@@ -1,6 +1,20 @@
-#include <stdio.h>		/*	declares printf()	*/
-#include <unistd.h>		/*	declares write()	*/
+/******************************************************
+ *	Filename:		hello.c
+ *	Author:			BombBeard
+ *	Date:			5/12/16
+ *	Language:		C
+ *
+ *	Reachable at:	
+ *		email:		bombBeardGaming@gmail.com
+ *		youtube:	http://bit.ly/1lp2hUw
+ *		twitch:		twitch.tv/bombbeard
+ * 		twitter:	@bombBeard
+ ******************************************************/
 
+/****************  Description  ****************
+ *
+ **********************************************/
+ 
 /*	Here are 3 ways to implement Hello World.
 
 	The string literal way is by far the simplest to explain
@@ -27,7 +41,9 @@
 	to highly specialized.
 	
 */
-	
+
+#include <stdio.h>		/*	declares printf()	*/
+#include <unistd.h>		/*	declares write()	*/
 
 int main(){
 	
