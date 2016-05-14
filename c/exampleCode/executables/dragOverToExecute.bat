@@ -1,0 +1,5 @@
+%1
+@ECHO.
+@ECHO off
+PAUSE
+@ECHO on
