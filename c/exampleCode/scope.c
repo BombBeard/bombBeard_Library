@@ -11,11 +11,24 @@
  * 		twitter:	@bombBeard
  ******************************************************/
 
-/****************  Description  ****************
- *
- **********************************************/
+/*********************  Description  **********************
+ *	Where you declare something is what determines its' 
+ *	default scope. Things declared outside of any functions
+ *	are considered to have file scope. By contrast, things
+ *	declared in any given function are considered to have
+ *	a corresponding function-level scope. This leads to the
+ *	concept of parameters. Only what is declared as file
+ *	scope or declared in the function are known to the function.
+ *	Parameters are local variables intialized with the values
+ *	passed during the function call.
+ *********************************************************/
  
 #include <stdio.h>
+
+char fileScopeVar[] = {"I can be seen by anything declared in \
+	this file"};	/* that trailing '\' lets us continue down here */
+	
+/*	Since this is declared outside of any "{}"'s it has file-scope	*/
 
 int add( int var1, int var2 ){		/*	functions of type int require a return of type int	*/
 /*	x and y are declared in function scope, and are referred to 
@@ -45,3 +58,7 @@ int main(){
 	
 	return 0;
 }
+
+/******************  Related Material  *******************
+ *	
+ *********************************************************/

@@ -1,0 +1,139 @@
+/******************************************************
+ *	Filename:		definitions.txt
+ *	Author:			BombBeard
+ *	Date:			5/13/16
+ *	Language:		English
+ *
+ *	Reachable at:	
+ *		email:		bombBeardGaming@gmail.com
+ *		youtube:	http://bit.ly/1lp2hUw
+ *		twitch:		twitch.tv/bombbeard
+ * 		twitter:	@bombBeard
+ ******************************************************/
+
+/*******************  Description  ************************
+ *	As many basic definitions as I can think of for common
+ *	words used in programming.
+ *********************************************************/
+ 
+	Compiler:
+		A program which converts source code to an exectuable.
+		
+	Data:
+		Representation of information in a computer.
+		
+	Variables:
+		Used to store and refer to a given value. A variable
+		declaration is defined by its type and label. 
+		( Ex:	int aNumber; )
+		
+	Type:
+		Phrase that identifies what a thing is, and tells
+		the computer how much space to allocate in memory.
+	
+	Integer (type):
+		Represents, in data, integer numbers.
+		
+	Boolean (concept): 
+		A value of True, or False. In C this is represented 
+		as 1 or 0, respectively. 
+	
+	Statement:
+		(C, C++) Any valid code which ends with a semicolon.
+	
+	Declaration:
+		A statement which does not evaluate. 
+		( Ex: int i;, char s[10];, long bigNumber; )
+		
+	Assignment:
+		Updating the value of a variable with a given value.
+		( Ex: index = i+1;, s[index] = 'c' )
+		
+	Initialization:
+		Immediately after declaration, but before use in code,
+		you assign a variable an initial value. Particularly 
+		important for pointers to avoid pointing to protected
+		memory.
+		
+	Expression:
+		A group of inputs combined in a meaningful arrangement
+		which evaluates to some output.
+		( Ex: 2 + 2, any function with a return value, 
+		(index + offset) % 20 )
+	
+	Conditional:
+		An expression which evaluates to either True(1) or False(0)
+		( Ex: 1 == 1, (12-10) > 1 )
+	
+	Loop:
+		Method of repeating a block of code while a given 
+		condition remains true. Typically comprised of a 
+		conditional statement, the code to repeat, and an
+		iterator.
+		( Ex:	while(i-->0){...}, 
+				for(i=0;i<s.length-1;i++){...} )
+	
+	Iterator:
+		Either some construct or a counting variable which 
+		is incremented during evaluation of a loop.
+		( Ex:	while(i<10){...i++;}, 
+				while(char[i++] != '\0'){...} )
+	
+	Files:
+		Data stored on hard drive. If you want to complicate
+		matters; on Linux EVERYTHING is a file.
+	
+	Function:
+		A labelled section of code which can be called from 
+		elsewhere. A function is comprised of a return type,
+		a label, parameters, and code to execute.
+		( Ex: int returnWhatIPassed(int x){return x;} )
+	
+	Parameters:
+		Locally declared variable which is assigned the 
+		value passed in the function call. 
+	
+	Scope:
+		The idea that where you declare something limits
+		where it can be seen. If you declare a variable 
+		outside of any functions, it is considered file-
+		scope, and is visible to everything declared in 
+		that file. Things declared inside a function or 
+		are considered local to that function (also 
+		called function-scope sometimes.) Things declared
+		in pretty much any other pair of {} is considered 
+		local to that level of {}.
+	
+	Function Prototype:
+		A declaration of a function, minus the code to be 
+		executed. Typically given before the main() or in
+		a header file.
+		(Ex: void theBestSongInTheWorld(char tenaciousLetter);)
+		
+	Implementation:
+		The code to execute for a given function prototype. 
+		Typically written directly after a prototype, or in
+		a seperate file with the associated function proto.
+		
+	Header File:
+		A separate file containing various constants and 
+		funtion prototypes. This is handy for easily seeing
+		all the functions and constants of a given library.
+		
+	Memory:
+	
+	Address:
+	
+	Array:
+	
+	Indexing:
+	
+	Instance:
+	
+	Keywords:
+	
+	String:
+	
+	Null-Terminator:
+	
+	
