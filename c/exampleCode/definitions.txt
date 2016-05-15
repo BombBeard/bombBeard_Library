@@ -31,10 +31,10 @@
 		Phrase that identifies what a thing is, and tells
 		the computer how much space to allocate in memory.
 	
-	Integer (type):
+	Int (type):
 		Represents, in data, integer numbers.
 		
-	Boolean (concept): 
+	Boolean (concept/type): 
 		A value of True, or False. In C this is represented 
 		as 1 or 0, respectively. 
 	
@@ -120,6 +120,7 @@
 		funtion prototypes. This is handy for easily seeing
 		all the functions and constants of a given library.
 		
+	/*	To be implemented soon: BB 5/13/16	*/
 	Memory:
 	
 	Address:

@@ -1,6 +1,0 @@
-@ECHO off
-%1
-
-ECHO.
-PAUSE
-@ECHO on
