@@ -12,36 +12,36 @@
  ******************************************************/
 
 /*********************  Description  **********************
+ *	There are many ways to solve programming issues. These 
+ *	resolutions range from simple to highly specialized.
+ *	With that in mind, here are 3 ways to implement the 
+ *	age old Hello World program.
  *
+ *	//You can uncomment the code by removing "//" from the 
+ *	//front of a line of code.
+ *
+ *	The string literal way is by far the simplest to explain
+ *	and understand. Simply type a string literal as a parameter
+ *	for printf() and call it a day!
+ *	
+ *	The variable version introduces a char[] to store whatever
+ *	string you want to print. Using a variable to print allows 
+ *	you to change the variable and have any following uses of 
+ *	it be changed as well.
+ *	
+ *	-------------------------------------------------------
+ *	Don't worry too much about this next version; it is 
+ *	only if you are overly curious or bored with the 
+ *	previous 2 versions.	
+ *	-------------------------------------------------------
+ *	Lastly, the horrendous version makes use of the system call
+ *	write() which directly writes to the screen. It takes a 
+ *	file descriptor (in this case 1, for standard output),
+ *	a void* reference to what you want to print,
+ *	and the number of bytes away from the pointer you supplied
+ *	you are allowing it to write.
  *********************************************************/
  
-/*	Here are 3 ways to implement Hello World.
-
-	The string literal way is by far the simplest to explain
-	and understand. Simply type a string literal as a parameter
-	for printf() and call it a day!
-	
-	The variable version introduces a char[] to store whatever
-	string you want to print. Using a variable to print allows 
-	you to change the variable and have any following uses of 
-	it be changed as well.
-	
-	**	Don't worry too much about this version; it is only
-		if you are overly curious or bored with the previous
-		2 versions.	**
-	Lastly, the horrendous version makes use of the system call
-	write() which directly writes to the screen. It takes a 
-	file descriptor (in this case 1, for standard output),
-	a void* reference to what you want to print,
-	and the number of bytes away from the pointer you supplied
-	you are allowing it to write.
-	
-	The goal here is to show that for any problem, there are 
-	many ways to solve them. These resolutions range from simple
-	to highly specialized.
-	
-*/
-
 #include <stdio.h>		/*	declares printf()	*/
 #include <unistd.h>		/*	declares write()	*/
 

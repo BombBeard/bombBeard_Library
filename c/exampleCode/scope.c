@@ -43,6 +43,22 @@ int add( int var1, int var2 ){		/*	functions of type int require a return of typ
 	return x + y;
 }
 
+void doNothing(){
+	/*	i is local to doNothing and will cease to exist
+		once we exit the function	*/
+	int i = 1;
+	while(i){
+		/*	x has local scope in this loop
+			and will go away once we leave
+			this loop 	*/
+			
+		int x = -1;
+		/*	reduces i to 0 which evaluates to false, 
+			making the loop condition false	*/		
+		i += x;		// i += x; is equivalent to i = i + x;
+	}	
+}
+
 
 int main(){
 	int x = 10;
